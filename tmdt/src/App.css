@@ -1,0 +1,230 @@
+
+.hpFormSm{
+  display: flex;
+  margin-left: 30px;
+}
+.mr-10{
+  margin-top: 70px;
+}
+.name-title{
+  margin-bottom: 50px;
+}
+.mrr-5 {
+  margin-left: 10px;
+  width: 300px;
+  margin-top: 50px;
+}
+.mr-5{
+  margin: 10px 0px;
+}
+.homePage{
+  margin-top: 50px;
+  text-align: right;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.pagi{
+  text-align: right;
+}
+.sizeWidth{
+  margin-left: 780px;
+  text-align: right;
+}
+.sizeWidth .search-label{
+  color: red;
+  width: 100% !important;
+}
+.selectionAction {
+   background:  #7691ab;
+   height: 60px;
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   margin-top: -1px;
+}
+.selectionAction ul{
+  list-style: none;
+  display: flex;
+}
+.selectionAction ul li{
+  margin-right: 50px;
+  cursor: pointer;
+}
+.cardWidth{
+  width: 500px;
+  margin-left: 70px;
+}
+.f-left{
+  margin-right: 380px !important;
+}
+.f-right{
+  
+}
+.ds-flex{
+  display: flex;
+}
+
+.flexForm{
+  display: flex;
+}
+.mrbtn{
+  margin-left:40px ;
+}
+.left_vt{ 
+  float: right;
+  margin-right: 20px;
+  margin-top: 12px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.spaceMr{
+  margin-left: 10px;
+}
+.sizeInput{
+  width: 300px;
+}
+.mr-input{
+  margin-left: 10px;
+}
+.positionAbs{
+  
+}
+.eventIcon{
+  text-align: center;
+  margin-left: 430px;
+  margin-bottom: 7px;
+}
+.eventIcon i{
+   margin-right: 20px;
+   cursor: pointer;
+}
+.eventIcon .i1{
+  color:rgb(150, 150, 223);
+}
+.eventIcon .i2{
+  color: rgb(221, 221, 84);
+}
+.eventIcon .i3{
+  color: brown;
+}
+.taskForm{
+  padding-top: 110px;
+  height: 100%;
+  width: 110%;
+  position: fixed;
+  background:rgba(255, 255, 255, 0.9);
+  z-index: 2;
+}
+.taskDelete{
+  margin-right: 300px;
+  z-index: 4;
+  position: fixed;
+}
+.NavBar_handling{
+  margin-top: 100px;
+}
+.full{
+  overflow: hidden;
+}
+.formDelete{
+}
+.inputCraw{
+  width: 400px;
+}
+.input_flex{
+  display: flex;
+  margin-top: 100px;
+}
+.input-mr-5{
+  width: 400px;
+  display: flex;
+}
+.category-Company{
+  margin-left: 180px;
+  margin-bottom: -30px;
+}
+.category-Company i{
+  cursor: pointer;
+}
+.category-Company :hover{
+  color: blue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+body {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ccd7e8;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: white;
+  overflow: hidden;
+  width: 500px;
+  border-radius: 10px;
+}
+
+th, td {
+  font-family:'Motnserrat',sans-serif;
+  text-align: left;
+  font-size: 12px;
+  padding: 10px;
+}
+th{
+  border: #0e3255 solid 2px !important; 
+  /* border-left: #0e3255 solid 2px !important; 
+  border-right: #0e3255 solid 2px !important; 
+  border-bottom: #0e3255 solid 2px !important; */
+}
+td{
+  border: #0e3255 solid 1px !important; 
+  border-bottom: #0e3255 solid 1px !important;
+}
+tr:last-child{
+  border-bottom: #0e3255 solid 2px !important;
+  border-top:  #0e3255 solid 1px !important;
+}
+ td:last-child{
+  border-right: #0e3255 solid 2px !important;
+}
+/*
+tr:first-child{
+  border-left: #0e3255 solid 2px !important ;
+} */
+
+th {
+  background-color: #9baec0;
+  color: white;
+}
+.category-UD{
+  text-align: center;
+}
+tr .category-update-delete{
+}
+.category-update-delete i{
+  font-size: 15px;
+  cursor: pointer;
+}
+.category-update-delete .i1{
+  color: rgb(206, 206, 36);
+}
+.category-update-delete .i2{
+  color: rgb(196, 58, 58);
+}
+.cancelPageCategory{
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  color: #062b4e;
+}
+.cancelPageCategory:hover{
+  color: #1261aa;
+}
+.category-update{
+  text-align: center;
+}
+tbody{
+  border-bottom: black solid 1px ;
+}
